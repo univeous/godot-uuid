@@ -6,13 +6,12 @@ The *uuid* class is a GDScript 'static' class that provides a unique identifier 
 Usage
 -----
 
-Copy the `uuid.gd` file in your project folder, and preload it using a constant.
+Copy the `uuid.gd` file in your project folder.
 
 ```gdscript
-const uuid_util = preload('res://addons/uuid/uuid.gd')
 
 func _init():
-  print(uuid_util.v4())
+  print(UUID.v4())
 ```
 
 Licensing
